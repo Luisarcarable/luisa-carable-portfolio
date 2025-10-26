@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Download, Mail, Linkedin } from "lucide-react";
+import profilePicture from "@/assets/profile-picture.jpeg";
 
 const Hero = () => {
   const handleDownloadResume = () => {
@@ -16,6 +17,15 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8">
+          {/* Profile Picture */}
+          <div className="flex justify-center mb-6">
+            <img 
+              src={profilePicture} 
+              alt="Luisa R. Carable" 
+              className="w-48 h-48 rounded-full object-cover border-4 border-primary/30 shadow-glow"
+            />
+          </div>
+          
           {/* Name with gradient */}
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
             <span className="text-gradient">Luisa R. Carable</span>

@@ -19,6 +19,7 @@ const Projects = () => {
       description: "Led multiple content creation and social media campaigns, developing creative concepts, managing production workflows, and ensuring brand consistency across all digital platforms.",
       role: "Project Manager & Social Media Editor",
       technologies: ["Content Strategy", "Social Media", "Branding", "Team Leadership"],
+      link: "https://www.facebook.com/cnimedia2024",
       color: "accent"
     },
     {
