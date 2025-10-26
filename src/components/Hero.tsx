@@ -8,7 +8,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center gradient-hero relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center gradient-hero relative overflow-hidden pt-24">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute w-96 h-96 -top-48 -left-48 bg-primary/20 rounded-full blur-3xl animate-pulse"></div>
