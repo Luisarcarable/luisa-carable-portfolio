@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Download } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -22,10 +22,6 @@ const Navigation = () => {
     { name: "Projects", href: "#projects" },
     { name: "Contact", href: "#contact" },
   ];
-
-  const handleDownloadResume = () => {
-    window.open('https://docs.google.com/document/d/1jlEpmAPMzQBrFz8ersrne4Uo5ncr3k0Esa4uqmtgZNs/export?format=pdf', '_blank');
-  };
 
   return (
     <nav
@@ -51,14 +47,6 @@ const Navigation = () => {
                 {link.name}
               </a>
             ))}
-            <Button
-              size="sm"
-              className="gradient-primary hover:opacity-90 transition-all"
-              onClick={handleDownloadResume}
-            >
-              <Download className="mr-2 h-4 w-4" />
-              Resume
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -85,17 +73,6 @@ const Navigation = () => {
                 {link.name}
               </a>
             ))}
-            <Button
-              size="sm"
-              className="w-full gradient-primary hover:opacity-90 transition-all"
-              onClick={() => {
-                handleDownloadResume();
-                setIsMobileMenuOpen(false);
-              }}
-            >
-              <Download className="mr-2 h-4 w-4" />
-              Download Resume
-            </Button>
           </div>
         )}
       </div>

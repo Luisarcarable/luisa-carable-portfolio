@@ -63,7 +63,7 @@ const Hero = () => {
               className="border-primary/50 hover:bg-primary/10 min-w-[200px]"
               asChild
             >
-              <a href="#contact">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSctgCSYZ3arxCTqaN8e1QoIQCzZv0ory12glYVMq8Wp0khI1A/viewform" target="_blank" rel="noopener noreferrer">
                 <Mail className="mr-2 h-5 w-5" />
                 Get In Touch
               </a>
@@ -88,7 +88,7 @@ const Hero = () => {
               className="hover:bg-primary/20 hover:shadow-glow transition-all"
               asChild
             >
-              <a href="mailto:luisarcarable@gmail.com">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSctgCSYZ3arxCTqaN8e1QoIQCzZv0ory12glYVMq8Wp0khI1A/viewform" target="_blank" rel="noopener noreferrer">
                 <Mail className="h-5 w-5" />
               </a>
             </Button>
